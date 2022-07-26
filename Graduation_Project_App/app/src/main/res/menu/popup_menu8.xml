@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/PopUpMenu_detals6"
+        android:title="Details"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:iconTint="@color/light_blue"/>
+    <item android:id="@+id/PopUpMenu_loaded"
+        android:title="Loaded"
+        android:icon="@drawable/ic_load"/>
+    <item android:id="@+id/PopUpMenu_delete8"
+        android:title="Delete"
+        android:icon="@android:drawable/ic_delete"/>
+
+
+</menu>

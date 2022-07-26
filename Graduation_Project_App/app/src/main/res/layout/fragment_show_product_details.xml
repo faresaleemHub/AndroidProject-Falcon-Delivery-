@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".ui.clientSide.ShowProductDetailsFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productTitle_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="#373b54"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andada"/>
+
+            <TextView
+                android:id="@+id/productPrice_Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:layout_gravity="center"
+                android:textColor="#ff5e00"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_money"
+                android:paddingTop="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/orderPic"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/pizza1"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/minusBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/minus" />
+
+                <TextView
+                    android:id="@+id/tv_quantityOrderItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="#373b54"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/simonetta"/>
+
+                <ImageView
+                    android:id="@+id/plusBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:srcCompat="@drawable/plus" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/productDescription_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Description"
+                android:textColor="#686767"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/andada"
+                android:paddingTop="10dp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/addToCardBtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:text="Add to Card"
+        android:background="@drawable/orange_button_background"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

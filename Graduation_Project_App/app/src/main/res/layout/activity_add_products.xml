@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/collapsing_appbar_bg"
+    tools:context=".ui.supervsorSide.EntityOperations.ProductsOperations">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collabsing_toolbar_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/collapsing_appbar_bg"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="New Product">
+
+            <include
+                android:id="@+id/toolbar_layout"
+                layout="@layout/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                app:layout_collapseMode="pin" />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:endIconMode="clear_text"
+                android:hint="name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:startIconDrawable="@drawable/ic_name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_product_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/black"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_sell_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sell Price"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input_product_description"
+                app:startIconDrawable="@drawable/ic_money"
+                tools:layout_editor_absoluteY="20dp"
+                android:layout_marginTop="5dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_sell_price_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/tv_categoryProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Category :"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input_sell_price" />
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/input_product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                app:endIconMode="clear_text"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input_product_name"
+                app:startIconDrawable="@drawable/ic_name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_product_description_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/spinner_category_products"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_categoryProduct" />
+
+            <TextView
+                android:id="@+id/tv_productParCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:text="ParCode : "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintStart_toStartOf="@+id/input_product_name"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_category_products" />
+
+            <TextView
+                android:id="@+id/tv_productParCodeResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_productParCode"
+                app:layout_constraintStart_toEndOf="@+id/tv_productParCode"
+                app:layout_constraintTop_toTopOf="@+id/tv_productParCode" />
+
+            <TextView
+                android:id="@+id/tv_productPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:text="Photo : "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:layout_marginTop="35dp"
+                app:layout_constraintStart_toStartOf="@+id/input_product_name"
+                app:layout_constraintTop_toBottomOf="@+id/tv_productParCode" />
+
+            <Button
+                android:id="@+id/btn_scanProductParCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/btn_bg"
+                android:text="Scanner"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="@+id/input_product_name"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_category_products" />
+
+            <Button
+                android:id="@+id/btn_chooseProductImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/btn_bg"
+                android:text="Choose"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_productPhoto"
+                app:layout_constraintEnd_toEndOf="@+id/input_product_name"
+                app:layout_constraintTop_toTopOf="@+id/tv_productPhoto" />
+
+            <ImageView
+                android:id="@+id/imgProduct"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/tv_categoryProduct"
+                app:layout_constraintStart_toStartOf="@+id/tv_categoryProduct"
+                app:layout_constraintTop_toBottomOf="@+id/tv_productPhoto"
+                tools:srcCompat="@tools:sample/avatars"
+                android:layout_marginTop="20dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_product_date_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/DateRegister"
+                android:visibility="gone"
+                app:endIconMode="clear_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgProduct"
+                app:startIconDrawable="@drawable/ic_date">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/input_product_date_register_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <ProgressBar
+                android:id="@+id/progressBar_addProduct"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/btn_save_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_bg"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Add"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/input_product_date_register" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#facf5a"
+        android:baselineAlignBottom="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add_products"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom"
+        app:maxImageSize="30dp"
+        app:backgroundTint="#ff5300"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

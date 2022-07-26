@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aqsa.graduation_project_app">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <!-- for google map -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- for ParCode and QR Scanner -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Graduation_Project_App"
+        tools:replace="android:supportsRtl">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".tests.SetConetntVieww"
+            android:exported="true" />
+        <activity
+            android:name=".tests.recomendation"
+            android:exported="true" />
+        <activity
+            android:name=".ui.supervsorSide.EntityOperations.CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".ui.clientSide.mapClientSelectLocation"
+            android:exported="true"
+            android:label="@string/title_activity_map_client_select_location"></activity>
+        <activity
+            android:name=".tests.AutoCompleteTextViewClass"
+            android:exported="true" />
+        <activity
+            android:name=".ui.distributorSide.MonitoringDistributorOrders"
+            android:exported="true"
+            android:label="@string/title_activity_monitoring_distributor_orders" />
+        <activity
+            android:name=".ui.adminSide.previewEntyties.MonitoringDistributorsMap"
+            android:exported="true"
+            android:label="@string/title_activity_monitoring_distributors_map" />
+        <activity android:name=".ui.distributorSide.DistributorOrders" />
+        <activity android:name=".ui.merchantSide.MerchantOrders" />
+        <activity android:name=".ui.merchantSide.MerchantDashboard" />
+        <activity android:name=".ui.clientSide.ClientMainActivity" />
+        <activity android:name=".ui.distributorSide.DistributorDashboard" />
+        <activity android:name=".ui.supervsorSide.PreviewEntities.PreviewOrders" />
+        <activity android:name=".ui.clientSide.RecieptDetails" />
+        <activity android:name=".tests.test" />
+        <activity android:name=".ui.supervsorSide.PreviewEntities.PreviewPurchases" />
+        <activity android:name=".ui.supervsorSide.PreviewEntities.PreviewReciepts" />
+        <activity android:name=".ui.supervsorSide.EntityOperations.PurchaseItemOperations" />
+        <activity android:name=".ui.supervsorSide.EntityOperations.ReceiptOperations" />
+        <activity android:name=".ui.supervsorSide.PreviewEntities.PreviewProducts" />
+        <activity android:name=".ui.supervsorSide.PreviewEntities.PreviewCategories" />
+        <activity android:name=".ui.supervsorSide.EntityOperations.CategoryOperations" />
+        <activity android:name=".ui.supervsorSide.EntityOperations.ProductsOperations" />
+        <activity android:name=".ui.supervsorSide.SupervsorDashboard" />
+        <activity android:name=".ui.adminSide.previewEntyties.PreviewMerchant" />
+        <activity android:name=".ui.adminSide.previewEntyties.PreviewEmplloyees" />
+        <activity android:name=".ui.adminSide.previewEntyties.PreviewVehicle" />
+        <activity android:name=".ui.adminSide.previewEntyties.PreviewClients" />
+        <activity android:name=".ui.adminSide.entityOperations.MerchantOperations" />
+        <activity android:name=".ui.adminSide.entityOperations.ClientOperations" />
+        <activity android:name=".ui.adminSide.entityOperations.VehicleOperations" />
+        <activity android:name=".ui.adminSide.entityOperations.EmployeeOperations" />
+        <activity android:name=".ui.adminSide.AdminDashboard" />
+        <activity android:name=".ui.subscribe.SignupActivity" />
+        <activity android:name=".ui.subscribe.LoginActivity" />
+        <activity
+            android:name=".ui.IntroActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

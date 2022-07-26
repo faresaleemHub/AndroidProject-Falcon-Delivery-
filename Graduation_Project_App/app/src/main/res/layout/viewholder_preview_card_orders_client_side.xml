@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/card_background"
+    android:elevation="3dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/picCard"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pizza1" />
+
+    <TextView
+        android:id="@+id/tv_productTitlecarOrderItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="title"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#373b54"
+        app:layout_constraintStart_toEndOf="@+id/picCard"
+        app:layout_constraintTop_toTopOf="@+id/picCard" />
+
+    <TextView
+        android:id="@+id/tv_quantity_cardOrderItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="1"
+        android:textColor="#373b54"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/tv_unitPrice_cardOrderItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="0"
+        android:drawableLeft="@drawable/ic_money"
+        android:textColor="#373b54"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_productTitlecarOrderItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_productTitlecarOrderItem" />
+
+
+    <TextView
+        android:id="@+id/tv_totoalPrice_cardOrderItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_money"
+        android:text="0"
+        android:textColor="#373b54"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/tv_unitPrice_cardOrderItem"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Quantity:"
+        app:layout_constraintBottom_toBottomOf="@+id/picCard"
+        app:layout_constraintStart_toEndOf="@+id/picCard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

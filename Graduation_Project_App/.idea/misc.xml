@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-hdpi/home.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/ic_lock.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/ic_person.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/ic_person10.xml" value="0.1" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/ic_person3.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/ic_person8.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/ic_person9.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-ldpi/wave.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-v24/btn_bg.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-v24/collapsing_appbar_bg.xml" value="0.176953125" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-v24/layout_bg.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-xxhdpi/light_orange_back.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable-xxhdpi/search_back.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/done.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/heading_text_background.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_add.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_add_employee_1.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_add_employee_2.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_add_photo.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_alert.xml" value="0.2703125" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_back.xml" value="0.236986301369863" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_buy.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_car.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_category.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_clock.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_done.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_empty_yet.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_load.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_location.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_money.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_more.xml" value="0.176953125" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_name.xml" value="0.1" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_number.xml" value="0.1" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_orders.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person1.xml" value="0.1078125" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person2.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person3.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person4.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person5.xml" value="0.1" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person7.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_person_6.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_phone.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_profilesetting.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_receipt.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_save.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_search_off.xml" value="0.176953125" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_settings.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_store.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_store2.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_telegram.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ic_timer.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/ice_drop_down.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/icon_done_task.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/orange_button_background.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/shine.xml" value="0.1707236842105263" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/transfer_raw.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/drawable/vi_bg.xml" value="0.202734375" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/font/simonetta.xml" value="0.21328125" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_add_client__admin.xml" value="0.176" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_add_employee__admin.xml" value="0.152" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_add_marchent__admin.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_add_products.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_add_vehicle__admin.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_auto_complete_text_view.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.176" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_distributor_dashboard.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_distributor_orders.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_intro.xml" value="0.25" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_login.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_main.xml" value="0.10583941605839416" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_main__client.xml" value="0.264" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_map_client_select_location.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_mapping.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_maps2.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_merchant_dashboard.xml" value="0.14953703703703702" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_monitoring_distributor_orders.xml" value="0.176" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_monitoring_distributors_map.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_new_purchase_item.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_new_receipt.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_cars__admin.xml" value="0.23777173913043478" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_categories.xml" value="0.1" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_emplloyees__admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_merchant__admin_.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_orders.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_products.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_purchases.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_preview_reciepts.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_reciept_details.xml" value="0.152" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_set_conetnt_vieww.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_signup.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_supervsor_dashboard_.xml" value="0.176" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_take_photo.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_test.xml" value="0.176" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/activity_tool_bar.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/dashboard_toolbar.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/fragment_card_list.xml" value="0.136" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/fragment_menu.xml" value="0.16799999999999998" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/fragment_pending_orders.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/fragment_product_of_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/fragment_profile_information.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/fragment_show_product_details.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/image_slider__proposed_products_adapter_layout.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/image_slider_adapter_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/item_shimmer.xml" value="0.16052631578947368" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/marker_widget.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/toast_layout.xml" value="0.264" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_ask_orders_supervisor_side.xml" value="0.1" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_categories_supervisor_side.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_clients_admin_side.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_employees_admin_side.xml" value="0.2" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_merhcants_admin_activity.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_pending_reciepts_activity.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_pending_reciepts_client_activity.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_products_supervisor_side.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_purchase_items_supervisor_activity.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_recent_product_client_side.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/layout/viewholder_preview_vehicles_admin_side.xml" value="0.264" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/client_map_menu.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/map_menu.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/map_menu_monitoringDistributors.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/map_menu_monitoring_distribtor_orders.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/map_menu_monitoring_distributors.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/menu.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/menu22.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/menu23.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu1.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu10.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu11.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu12.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu13.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu14.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu15.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu16.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu17.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu18.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu19.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu2.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu20.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu21.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu22.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu23.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu24.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu3.xml" value="0.25416666666666665" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu4.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu5.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu6.xml" value="0.190625" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu7.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu8.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/menu/popup_menu9.xml" value="0.22592592592592592" />
+        <entry key="..\:/University Study/Graduation Project/Android App/Graduation_Project_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1796875" />
+        <entry key="..\:/University Study/Graduation Project/Android App/conssidered Clone Of old Graduation Project/3/Graduation_Project_App/app/src/main/res/layout/activity_maps.xml" value="0.11200000000000002" />
+        <entry key="..\:/study of university/Graduation Project/Andoid App/Graduation_Project_App/app/src/main/res/layout/activity_send_notif.xml" value="0.16486486486486487" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

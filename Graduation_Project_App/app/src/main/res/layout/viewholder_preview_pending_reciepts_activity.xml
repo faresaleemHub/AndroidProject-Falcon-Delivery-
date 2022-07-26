@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/card_background"
+    android:elevation="3dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_pending_receipt_number_supervisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receipt No : 1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toEndOf="@+id/img_client_order"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pending_receipt_supervisor_date_order_Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_date"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimary"
+        android:text="20/10/2020"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_pending_receipt_number_supervisor"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pending_receipt_number_supervisor" />
+
+    <TextView
+        android:id="@+id/tv_pending_receipt_supervisor_date_order_H"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_timer"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimary"
+        android:text="20:10:10"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_pending_receipt_supervisor_date_order_Y"
+        app:layout_constraintTop_toTopOf="@+id/tv_pending_receipt_supervisor_date_order_Y" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_client_order"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

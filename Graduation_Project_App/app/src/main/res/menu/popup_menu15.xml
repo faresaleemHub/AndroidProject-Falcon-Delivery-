@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/PopUpMenu_details15"
+        android:title="Details"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:iconTint="@color/light_blue" />
+
+    <item android:id="@+id/PopUpMenu_Accept15"
+        android:title="Accept"
+        android:icon="@drawable/done"/>
+
+    <item android:id="@+id/PopUpMenu_Received15"
+        android:title="Received"
+        android:icon="@drawable/done"
+        android:iconTint="@color/light_blue"/>
+    <item android:id="@+id/PopUpMenu_delete15"
+        android:title="Delete"
+        android:icon="@android:drawable/ic_delete"/>
+</menu>

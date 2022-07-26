@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/PopUpMenu_details"
+        android:title="Details"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:iconTint="@color/light_blue"/>
+
+    <item android:id="@+id/PopUpMenu_update"
+        android:title="Update"
+        android:icon="@android:drawable/ic_menu_edit"/>
+
+    <item android:id="@+id/PopUpMenu_Call"
+        android:title="Call"
+        android:icon="@android:drawable/sym_call_outgoing"/>
+
+    <item android:id="@+id/PopUpMenu_DealingHistory_Client"
+        android:title="Dealing History"
+        android:icon="@android:drawable/ic_menu_recent_history"/>
+    <item android:id="@+id/PopUpMenu_delete"
+        android:title="Delete"
+        android:icon="@android:drawable/ic_delete"/>
+
+</menu>

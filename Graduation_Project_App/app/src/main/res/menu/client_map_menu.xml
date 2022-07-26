@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/normalMap" android:title="Normal Map"/>
+    <item android:id="@+id/satelliteMap" android:title="Satellite Map"/>
+    <item android:id="@+id/zoomIn" android:title="Zoom in"/>
+    <item android:id="@+id/zoomOut" android:title="zoom out"/>
+</menu>

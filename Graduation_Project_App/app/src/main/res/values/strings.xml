@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Falcon Delivery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="Gaza_Governorates">
+        <item>North Gaza</item>
+        <item>Gaza</item>
+        <item>Middle of Gaza</item>
+        <item>Khan Younes</item>
+        <item>Rafah</item>
+        <item>All Gaza Governorates</item>
+    </array>
+
+    <array name="JobType">
+        <item>Supervisor</item>
+        <item>Distributor</item>
+    </array>
+
+
+    <!--    SignUp Activity-->
+    <string name="CreateAccount">Signup and Join us with a new Account</string>
+    <string name="userName">UserName</string>
+    <string name="Email">Email</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Password">Password</string>
+    <string name="PasswordConfirmation">Password Confirmation</string>
+    <string name="MarketName">Market Name</string>
+    <string name="SignUp">SignUp</string>
+    <string name="HaveAccount">I have Already an Account</string>
+    <string name="Login">Login</string>
+    <string name="NewRegister">New user ? Register Now</string>
+    <string name="doesHaveAccount">Already Have an Account ?</string>
+    <string name="AlredyHaveAccount">I Aleady Have Account</string>
+    <string name="ForgetPassword">Forget Password</string>
+    <string name="DateRegister">Date Register</string>
+    <string name="title_activity_maps__client_place">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mappping">Map</string>
+    <string name="title_activity_mapping">Map</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_monitoring_distributors_map">MonitoringDistributorsMap</string>
+    <string name="title_activity_monitoring_distributor_orders">MonitoringDistributorOrders</string>
+    <string name="title_activity_map_client_select_location">mapClientSelectLocation</string>
+
+    <string name="supervisorEmployee">Supervisor</string>
+    <string name="distributorEmployee">Distributor</string>
+    <string name="adminEmployee">Admin</string>
+    <string name="title_activity_testing_maps">TestingMapsActivity</string>
+
+</resources>

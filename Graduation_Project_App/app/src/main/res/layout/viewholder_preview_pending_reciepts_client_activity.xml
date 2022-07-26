@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginRight="5dp"
+    android:padding="10dp"
+    android:background="@drawable/card_background"
+    android:elevation="3dp">
+
+    <TextView
+        android:id="@+id/tv_pending_receipt_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Receipt No : 1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pending_receipt_date_order_Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="20/10/2020"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_date"
+        android:drawablePadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:drawableTint="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn_done_client_order_receipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg"
+        android:text="Is Done ?"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_pending_receipt_number"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pending_receipt_date_order_Y" />
+
+    <TextView
+        android:id="@+id/tv_pending_receipt_date_order_H"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:10:10"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_timer"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_done_client_order_receipt"
+        app:layout_constraintStart_toStartOf="@+id/tv_pending_receipt_date_order_Y"
+        app:layout_constraintTop_toTopOf="@+id/btn_done_client_order_receipt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

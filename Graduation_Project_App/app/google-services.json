@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865212408358",
+    "firebase_url": "https://hotelbokking-default-rtdb.firebaseio.com",
+    "project_id": "hotelbokking",
+    "storage_bucket": "hotelbokking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865212408358:android:9b0b63d586ea1a3ce23ce7",
+        "android_client_info": {
+          "package_name": "com.aqsa.graduation_project_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865212408358-b3u2urclop4114t65hn616avi4d67uqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aqsa.graduation_project_app",
+            "certificate_hash": "95265fce56ef152a0acba25137b06e412c663542"
+          }
+        },
+        {
+          "client_id": "865212408358-q5sh0jmjkp37f1elb3itg8u72p81imct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKhytiWxpb1ig2d5KocuK66kQHGXpwUfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865212408358-q5sh0jmjkp37f1elb3itg8u72p81imct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
