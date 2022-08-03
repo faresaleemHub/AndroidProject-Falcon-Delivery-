@@ -8,7 +8,8 @@ Given the importance of the e-commerce market, the majority of companies and tra
 ## 1.3 main Objectives
 The main objective of the project is to develop an Android application based on the management of a distribution company for goods, in terms of receiving goods, storing them, presenting them to customers and delivering them to them in a coordinated and easy way.
 ## 1.4 Specific objectives
- provide ideal platform to sell and buy items.
+<ol>
+<li> provide ideal platform to sell and buy items.</li>
  Try to organize the mess that Social media stores created.
  Ease of customer access to a required item.
  Implement our app using native framework.
@@ -18,7 +19,7 @@ The main objective of the project is to develop an Android application based on 
  Provide an advanced and coordinated method of delivering orders to customers
  Coordination of dealing with employees and other parties by keeping records of their dealings
  Informing the user of market updates and recommending what is predicted to be of importance to him
-
+<ol>
 ## 1.5 Functional Requirements (FRs).
 FR is “the ability of the system/Software to perform the defined task and
 how it performs while doing defined task”
