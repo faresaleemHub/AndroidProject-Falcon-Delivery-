@@ -19,7 +19,7 @@ The main objective of the project is to develop an Android application based on 
  Provide an advanced and coordinated method of delivering orders to customers
  Coordination of dealing with employees and other parties by keeping records of their dealings
  Informing the user of market updates and recommending what is predicted to be of importance to him
-<ol>
+</ol>
 ## 1.5 Functional Requirements (FRs).
 FR is “the ability of the system/Software to perform the defined task and
 how it performs while doing defined task”
