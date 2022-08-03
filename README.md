@@ -8,18 +8,18 @@ Given the importance of the e-commerce market, the majority of companies and tra
 ## 1.3 main Objectives
 The main objective of the project is to develop an Android application based on the management of a distribution company for goods, in terms of receiving goods, storing them, presenting them to customers and delivering them to them in a coordinated and easy way.
 ## 1.4 Specific objectives
-<ol>
+
 <li> provide ideal platform to sell and buy items.</li>
- Try to organize the mess that Social media stores created.
- Ease of customer access to a required item.
- Implement our app using native framework.
- Interview with clients and analyze their needs.
- Enriching the technical side in the sector and improving the wheel of trade
- Introducing an advanced way to track employees by managers
- Provide an advanced and coordinated method of delivering orders to customers
- Coordination of dealing with employees and other parties by keeping records of their dealings
- Informing the user of market updates and recommending what is predicted to be of importance to him
-</ol>
+1 Try to organize the mess that Social media stores created.
+2 Ease of customer access to a required item.
+3 Implement our app using native framework.
+4 Interview with clients and analyze their needs.
+5 Enriching the technical side in the sector and improving the wheel of trade
+6 Introducing an advanced way to track employees by managers
+7 Provide an advanced and coordinated method of delivering orders to customers
+8 Coordination of dealing with employees and other parties by keeping records of their dealings
+9 Informing the user of market updates and recommending what is predicted to be of importance to him
+
 ## 1.5 Functional Requirements (FRs).
 FR is “the ability of the system/Software to perform the defined task and
 how it performs while doing defined task”
