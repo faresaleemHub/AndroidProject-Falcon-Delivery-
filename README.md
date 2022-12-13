@@ -60,4 +60,4 @@ how it performs while doing defined task”
 5 Scalability for previewing the products to the client.
 6 Speed.
 ## DEMOS:
-https://www.youtube.com/watch?v=flktaHwQ3_s&list=PLWqURIX0Cj4I8uG2kj1EyXeI3zCTjEZdh
+https://www.youtube.com/playlist?list=PLWqURIX0Cj4I8uG2kj1EyXeI3zCTjEZdh
